@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rock, Paper, Scissors</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1 class="heading">Rock, Paper And Scissors</h1>
+        <div class="container">
+            <div class="score">
+                <div class="player-score">0</div>
+                <div style="margin: 0px 50px">-</div>
+                <div class="computer-score">0</div>
+            </div>
+            <div class="message"></div>
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="card-image" data-image="Rock">
+                        <img src="images/rock.png" alt="Rock">
+                    </div>
+                    <div class="card-text">Rock</div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-image="Paper">
+                        <img src="images/paper.png" alt="Paper">
+                    </div>
+                    <div class="card-text">Paper</div>
+                </div>
+                <div class="card">
+                    <div class="card-image" data-image="Scissors">
+                        <img src="images/scissors.png" alt="Scissors">
+                    </div>
+                    <div class="card-text">Scissors</div>
+                </div>
+            </div>
+            <div class="dashboard">
+                <div class="dashboard-side">
+                    <h2 class="heading-sub">Player</h2>
+                    <div class="player-selection"></div>
+                </div>
+                <div class="dashboard-side">
+                    <h2 class="heading-sub">Computer</h2>
+                    <div class="computer-selection"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
